@@ -1,0 +1,38 @@
+.counter-icon{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.main-heading {
+  color: white;
+  font-size: 140px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  
+};
+
+.achievements .main-second-heading {
+      color: #DFA14A;
+  font-size: 40px;
+  font-weight: 650;
+  letter-spacing: 1em;
+}
+@media (max-width: 768px) {
+    .main-heading {
+  color: white;
+  font-size: 90px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  
+};
+
+.main-second-heading {
+      color: #DFA14A;
+  font-size: 40px;
+  font-weight: 650;
+  letter-spacing: 0.5em;
+  
+}
+}
+

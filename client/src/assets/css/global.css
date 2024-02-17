@@ -1,0 +1,74 @@
+
+.primary-heading{
+    font-size: 45;
+    font-weight: 700;
+}
+
+.secondary-heading{
+font-size: 45;
+    font-weight: 700;
+    color: #DFA14A;
+    margin-left: 5px;
+}
+
+.third-heading{
+font-size: 45;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+.primary-heading{
+    font-size: 15;
+    font-weight: 600;
+}
+
+.secondary-heading{
+font-size: 15;
+    font-weight: 600;
+    color: #DFA14A;
+}
+
+.third-heading{
+font-size: 15;
+    font-weight: 600;
+}
+}
+
+.colored-button{
+  background-color: #DFA14A;
+  color: black;
+  border: 1px solid transparent;
+  width: auto;
+  padding: 5px 40px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 7px;
+};
+.colored-button:hover {
+    background-color: white;
+    color: #DFA14A;
+    border: 1px solid #DFA14A;
+  }
+
+  .list-style {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+.list-style li {
+  position: relative; /* Establish relative positioning */
+  line-height: 1.5; /* Set line height for better alignment */
+  left: 25px;
+  font-size: 16px;
+  line-height: 200%;
+}
+.list-style li::before {
+  content: '•'; /* Use a custom content (bullet or marker) */
+  color: #DFA14A; /* Change the color of the bullet */
+  font-size: 40px; /* Change the size of the bullet */
+  position: absolute; /* Position the bullet absolutely */
+  top: 50%; /* Move the bullet 50% down from the top */
+  transform: translateY(-50%); /* Adjust bullet position vertically */
+  left: -25px; /* Adjust distance of bullet from the text */
+}
+

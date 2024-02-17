@@ -1,0 +1,94 @@
+
+
+.awesome-portfolio-content{
+  margin-top: 120px;
+}
+figure.snip1113 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
+  margin-top: 0;
+  min-width: 90%;
+  max-width: 100%;
+  width: 100%;
+  background: transparent;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+figure.snip1113 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+figure.snip1113 img {
+  width: 500px;
+  height: 500px;
+  margin: 10px auto;
+  display: block;
+  position: relative;
+  border: 3px solid #666666;
+  padding: 0px 0px 85px 0px;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+figure.snip1113 .video {
+  width: 100%;
+  height: 100%;
+  margin: 10px auto;
+  display: block;
+  position: relative;
+  border: 3px solid #666666;
+  padding: 0px 0px 85px 0px;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+
+
+figure.snip1113 figcaption {
+  position: absolute;
+  height: 80px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  display: block;
+}
+
+figure.snip1113 h3 {
+  background: transparent;
+  color: #000000;
+  font-size: 1.7em;
+  width: 100%;
+  padding: 5px 12px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+figure.snip1113 h3 span {
+  font-weight: 800;
+}
+
+figure.snip1113 h2 {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  opacity: 0.6;
+  font-size: 1.1em;
+}
+
+
+figure.snip1113.color img {
+  border-color: #DFA14A;
+}
+
+figure.snip1113.color h3,
+figure.snip1113.color h2 {
+  color: #DFA14A;
+}
+

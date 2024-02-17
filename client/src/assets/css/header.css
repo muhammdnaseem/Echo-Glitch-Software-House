@@ -1,0 +1,178 @@
+
+
+
+
+.navbar {
+   background: transparent;
+   z-index: 3;
+  
+}
+ .logo-div {
+     align-self: center;
+margin-top: 0px;
+background-color: #FEFEFE;
+width: 150px;
+border-bottom-right-radius: 70px;
+border-bottom-left-radius: 70px;
+padding: 10px;
+cursor: pointer;
+ }
+.logo{
+      margin-top: 30px;
+      margin-bottom: 0px;
+      background: transparent;
+      width: 150px;
+      height: 150px;
+     
+ }
+
+
+.navbar-brand{
+    color: white;
+}
+
+
+
+.navbar .dropdown-menu {
+  padding: 0;
+  background-color: #0f0e1a;
+}
+.navbar .dropdown-menu .dropdown-item {
+  position: relative;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 1.2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+  transition: color 0.2s ease-in;
+}
+.navbar .dropdown-menu .dropdown-item:last-child {
+  border-bottom: none;
+}
+.navbar .dropdown-menu .dropdown-item:hover {
+  background: transparent;
+  color: #DFA14A;
+}
+.navbar .dropdown-menu .dropdown-item::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 5px;
+  background-color: #DFA14A;
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+}
+.navbar .dropdown-menu .dropdown-item:hover::before {
+  opacity: 1;
+}
+
+.dropdown-menu {
+    min-width: 200px;
+    -webkit-animation: dropdown-animation 0.3s;
+    animation: dropdown-animation 0.3s;
+    -webkit-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+  }
+
+  @-webkit-keyframes dropdown-animation {
+  0% {
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+  }
+  75% {
+    -webkit-transform: scaleY(1.1);
+    -ms-transform: scaleY(1.1);
+    transform: scaleY(1.1);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
+
+.dropdown-menu.show{
+  background-color: #0f0e1a;
+}
+
+.dropdown-toggle.nav-link:hover{
+  border-bottom: 3px solid #DFA14A;
+
+}
+.nav-link {
+  color: white;
+  font-weight: 600;
+  border-bottom: 3px solid transparent;
+  font-size: 1.2rem;
+  padding: 0 60px; /* Adjust this value to control the padding */
+  margin: 0 15px;
+}
+.nav-link:hover{
+    color: white;
+    border-bottom: 3px solid #DFA14A;
+}
+
+.nav-link:hover {
+     
+     color: #DFA14A;
+ }
+.nav-link:hover:after {
+     width: 100%;
+     left: 0;
+     right: auto;
+     color: #DFA14A;
+ }
+.active {
+  color: #DFA14A;
+  background: transparent;
+  border: 3px solid transparent;
+}
+
+button.navbar-toggler {
+  background-color: white; /* Set the desired color */
+}
+button.navbar-toggler.active {
+  background-color: black;
+}
+
+.whatsapp {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  font-size: 4em; /* Adjust size as needed */
+  color: green; /* Adjust color as needed */
+  cursor: pointer;
+}
+.whatsapp:hover {
+  position: fixed;
+  font-size: 4em; /* Adjust size as needed */
+  color: white; /* Adjust color as needed */
+  cursor: pointer;
+}
+
+
+.whatsapp-link:hover{
+    position: fixed;
+  right: 50px;
+  bottom: 50px;
+  color: green; /* Adjust color as needed */
+  cursor: pointer;
+  border: none;
+}
+@media (max-width: 768px) {
+    .navbar{
+        margin-top: -30px;
+    }
+
+    .whatsapp {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  font-size: 4em; /* Adjust size as needed */
+  color: green; /* Adjust color as needed */
+  cursor: pointer;
+}
+}

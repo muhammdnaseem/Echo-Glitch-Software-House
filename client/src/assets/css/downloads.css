@@ -1,0 +1,27 @@
+.downloads-button {
+  color: white;
+  font-weight: 600;
+  border: 3px solid transparent;
+  padding: 0px 20px; /* Adjust padding as needed */
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.downloads-button:hover {
+  color: #DFA14A;
+  border-bottom: 3px solid #DFA14A;
+ 
+}
+
+.downloads-lists{
+    margin-top: 0px;
+}
+
+/* Additional media query for responsiveness */
+@media (max-width: 768px) {
+  .downloads-button {
+    padding: 5px 10px; /* Smaller padding for smaller screens */
+  }
+}
+
+
